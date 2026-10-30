@@ -1,1 +1,0 @@
-{"name":"predel-calculus","version":"1.0.0","private":true,"description":"Интерактивный учебник математического анализа по Фихтенгольцу","scripts":{"dev":"python3 -m http.server 4173 --bind 127.0.0.1 --directory dist","test":"node scripts/validate.mjs","check":"node --check dist/app.js && node --check dist/labs.js && node scripts/validate.mjs"}}
