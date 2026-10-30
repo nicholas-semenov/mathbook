@@ -1,0 +1,24 @@
+channel: 757 items, already fetched: 739, to fetch: 18, workers: 2
+[1/18] FAIL 03DnHpnjcbY	no Russian transcript available (metadata saved)
+[2/18] FAIL atB_rDLHils	no Russian transcript available (metadata saved)
+[3/18] FAIL uQjZbu8eL-w	no Russian transcript available (metadata saved)
+[4/18] FAIL -OKkAHHLPA0	no Russian transcript available (metadata saved)
+[5/18] FAIL Dlujh45xhu0	no Russian transcript available (metadata saved)
+[6/18] FAIL GyruSwKAro0	no Russian transcript available (metadata saved)
+[7/18] FAIL SoinJsTXY9s	no Russian transcript available (metadata saved)
+[8/18] FAIL 8YUR0BiSD4A	no Russian transcript available (metadata saved)
+[9/18] FAIL D2aZZmNzMWc	no Russian transcript available (metadata saved)
+[10/18] FAIL lvRNUPP7dIk	no Russian transcript available (metadata saved)
+[11/18] FAIL zoB2KbeRsnc	no Russian transcript available (metadata saved)
+[12/18] FAIL FtVDDtSe3Ag	no Russian transcript available (metadata saved)
+[13/18] FAIL HGo9ypED8kU	no Russian transcript available (metadata saved)
+[14/18] FAIL qhkldjMo3-k	no Russian transcript available (metadata saved)
+retry S5DjjK2aC2o in 30s: HTTP Error 429: Too Many Requests
+[15/18] FAIL aWMBJfTYXoA	no Russian transcript available (metadata saved)
+[16/18] FAIL hkQwymsfn4s	no Russian transcript available (metadata saved)
+[17/18] FAIL mkC0GdKGbDM	no Russian transcript available (metadata saved)
+retry S5DjjK2aC2o in 60s: HTTP Error 429: Too Many Requests
+[18/18] ok   2017-04-08_9-aprelya-s-dnem-rozhdeniya-foksford_S5DjjK2aC2o
+done, failed: 17
+labels applied: 410/410
+index.json: 757 videos
