@@ -1,0 +1,149 @@
+{
+  "reviewed_file": "research/core-lessons.json",
+  "lesson_count": 40,
+  "changes": [
+    {
+      "lesson": "powers",
+      "field": "definition",
+      "reason": "Добавлен отсутствовавший случай основания a=1 в определении вещественной степени."
+    },
+    {
+      "lesson": "function",
+      "field": "definition",
+      "reason": "Исключён нулевой период и добавлена инвариантность области; иначе определение может выполняться вакуумно на непериодической области."
+    },
+    {
+      "lesson": "continuity",
+      "field": "definition",
+      "reason": "Предел в изолированной точке не определён принятой ранее конвенцией; непосредственное определение непрерывности исправлено как основное."
+    },
+    {
+      "lesson": "function-limit",
+      "field": "theorem",
+      "reason": "Критерий Коши выписан с двумя независимыми аргументами и кванторами, без неоднозначной словесной замены."
+    },
+    {
+      "lesson": "taylor-peano",
+      "field": "definition",
+      "reason": "Убрана избыточная и двусмысленная гипотеза существования n-й производной во всей окрестности; указаны достаточные локальные условия Пеано."
+    },
+    {
+      "lesson": "taylor-error",
+      "field": "definition",
+      "reason": "Формулировка работает при обоих порядках концов a и x."
+    },
+    {
+      "lesson": "taylor-error",
+      "field": "example",
+      "reason": "Убрана неоднозначная запись отрезка с десятичной запятой."
+    },
+    {
+      "lesson": "lhopital",
+      "field": "definition",
+      "reason": "Вместо неопределённой ссылки на аналогичную версию явно указаны гипотезы случая бесконечного знаменателя."
+    },
+    {
+      "lesson": "lhopital",
+      "field": "proof",
+      "reason": "Уточнён порядок выбора точки c: оценки отношения производных должны действовать на всём интервале применения Коши. Добавлены бесконечные предельные значения и подход к ±∞."
+    },
+    {
+      "lesson": "special-limits",
+      "field": "proof",
+      "reason": "Записаны действительные зажимающие оценки, не использующие производные или предел вещественной степени с меняющимся показателем."
+    },
+    {
+      "lesson": "cauchy",
+      "field": "proof",
+      "reason": "Явно распределён допуск ε между двумя слагаемыми в достаточности критерия Коши."
+    }
+  ],
+  "html_escaped_fields": [
+    "rational.definition",
+    "rational.theorem",
+    "rational.proof",
+    "rational.example",
+    "rational.pitfall",
+    "rational.exercise.question",
+    "rational.exercise.hint",
+    "completeness.theorem",
+    "completeness.example",
+    "completeness.exercise.solution",
+    "absolute.definition",
+    "powers.definition",
+    "powers.theorem",
+    "powers.proof",
+    "sequence.definition",
+    "sequence.theorem",
+    "sequence.proof",
+    "sequence.example",
+    "sequence.exercise.question",
+    "sequence.exercise.hint",
+    "sequence.exercise.solution",
+    "limit-algebra.proof",
+    "limit-algebra.pitfall",
+    "stolz.proof",
+    "monotone-e.proof",
+    "nested.proof",
+    "cauchy.definition",
+    "cauchy.proof",
+    "function.proof",
+    "function-limit.definition",
+    "function-limit.theorem",
+    "function-limit.proof",
+    "function-limit.example",
+    "function-limit.exercise.question",
+    "continuity.definition",
+    "continuity.proof",
+    "continuity.example",
+    "special-limits.theorem",
+    "special-limits.proof",
+    "intermediate.definition",
+    "intermediate.proof",
+    "intermediate.example",
+    "intermediate.exercise.solution",
+    "weierstrass.proof",
+    "uniform.definition",
+    "uniform.proof",
+    "elementary-derivatives.definition",
+    "elementary-derivatives.pitfall",
+    "inverse-derivative.definition",
+    "inverse-derivative.theorem",
+    "chain.definition",
+    "chain.example",
+    "exceptional.example",
+    "exceptional.exercise.hint",
+    "errors.proof",
+    "fermat-darboux.theorem",
+    "fermat-darboux.proof",
+    "higher-differentials.example",
+    "taylor-peano.proof",
+    "interpolation.theorem",
+    "interpolation.proof",
+    "monotonicity.definition",
+    "monotonicity.proof",
+    "monotonicity.example",
+    "monotonicity.pitfall",
+    "monotonicity.exercise.question",
+    "extrema.definition",
+    "convexity.proof",
+    "lhopital.proof",
+    "newton.proof"
+  ],
+  "checks": [
+    "Проверены все 40 уроков: определения, утверждения, доказательства, примеры и числовые упражнения.",
+    "Все 40 числовых ответов согласованы с условиями упражнений.",
+    "Цепное правило не делит на потенциально нулевое приращение внутренней функции.",
+    "Тейлор–Пеано и Лагранж не смешивают асимптотику с численной оценкой.",
+    "Локальная квадратичная сходимость Ньютона доказана при простом корне; приведён правильный цикл 0↔1.",
+    "Основные производные не доказываются через Лопиталя; первый замечательный предел использован до вычисления производной синуса.",
+    "Все текстовые сравнения < и > экранированы, структурные HTML-теги сохранены."
+  ],
+  "limitations": [
+    "Это математическая редактура авторского содержания, а не постраничная сверка всех пунктов книги.",
+    "Ряд доказательств объединённых тем остаётся кратким: арифметика вещественных чисел и законы вещественных степеней описаны через приближения, без полного построения всех свойств поля.",
+    "Вывод производной вещественной степени и arctan сознательно ссылается вперёд на цепное правило и правило частного; это отмечено в тексте, логического круга нет.",
+    "Название урока «полная таблица» шире фактического набора: обратные гиперболические функции и cot не представлены отдельными формулами.",
+    "Интерактивные лаборатории и браузерный рендер в этой проверке не запускались."
+  ]
+}

@@ -1,0 +1,15 @@
+MathJax 2.7.9 — local vendored distribution, unmodified runtime files.
+Copied 2026-10-18 from the existing Anaconda nbclassic 1.0.0 installation:
+/opt/anaconda3/lib/python3.11/site-packages/nbclassic/static/components/MathJax
+The source MathJax.js identifies MathJax.version and fileversion as 2.7.9
+and carries Copyright (c) 2009-2018 The MathJax Consortium, Apache License 2.0.
+The complete supplied components directory is retained so deferred config,
+TeX extensions, localization and font loads work offline. No CDN is used.
+
+LICENSE-APACHE-2.0.txt is the standard Apache 2.0 license text, copied from
+Anaconda's archspec-0.2.1-pyhd3eb1b0_0/info/licenses/LICENSE-APACHE. This
+license text is the same Apache 2.0 license named in MathJax source headers;
+it is not a claim that MathJax was sourced from archspec.
+
+The application enables MathJax Safe.js with URLs/classes/cssIDs/styles and
+require disabled, and serves all runtime files from its local static route.
